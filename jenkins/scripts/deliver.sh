@@ -24,3 +24,7 @@ echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 java -jar target/${NAME}-${VERSION}.jar
+
+echo -e
+echo 'Wait for one minute...'
+sleep 1m
